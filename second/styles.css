@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  width: 33.333%;
+  height: 100%;
+  float: left;
+}
+
+.left {
+  background-color: #4a90e2;
+}
+
+.middle {
+  background-color: #50e3c2;
+}
+
+.right {
+  background-color: #b8e986;
+  position: relative; 
+}
+
+.right img {
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
